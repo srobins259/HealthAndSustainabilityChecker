@@ -24,3 +24,4 @@ Usage
 
 DFD Description of GHData Visualizer
 ---------------------------------------
+![Alt text](/relative/path/to/flowchart1.jpg?raw=true "GHData Visualizer")
