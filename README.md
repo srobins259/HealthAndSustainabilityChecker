@@ -24,4 +24,3 @@ Usage
 
 DFD Description of GHData Visualizer
 ---------------------------------------
-DFD Image
