@@ -7,7 +7,7 @@ Copyright © 2017 Spencer Robinson & Robert Morrissey
 
 We are building an advanced front end functionality to [GHData](https://github.com/OSSHealth/ghdata).  All used content is free software: you can redistribute it and/or modify it under the terms of the MIT License as published by the Open Source Initiative. See the file LICENSE for more details.
 
-All associated documentation is licensed under the terms of the Creative Commons Attribution Share-Alike 4.0 license. See the file CC BY-SA 4.0 for more details.
+All associated documentation is licensed under the terms of the Creative Commons Attribution Share-Alike 4.0 license.
 
 CONTRIBUTOR AGREEMENT
 ---------------------
