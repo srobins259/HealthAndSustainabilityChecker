@@ -5,6 +5,8 @@ License and Copyright
 
 Copyright © 2017 Spencer Robinson & Robert Morrissey
 
+We are building an advanced front end functionality to GHData.  All used content is free software: you can redistribute it and/or modify it under the terms of the MIT License as published by the Open Source Initiative. See the file LICENSE for more details.
+
 CONTRIBUTOR AGREEMENT
 ---------------------
 
@@ -21,7 +23,8 @@ Installation
 
 Usage
 -----
+![Alt text](/GHDataVisualizerConcept.jpg?raw=true "GHData Visualizer Concept")
 
 DFD Description of GHData Visualizer
 ---------------------------------------
-![Alt text](/flowchart1.jpg?raw=true "GHData Visualizer")
+![Alt text](/flowchart1.jpg?raw=true "GHData Visualizer DFD")
