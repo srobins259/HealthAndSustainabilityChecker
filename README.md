@@ -36,5 +36,10 @@ After this functionality has been built successfully, we will develop a form tha
 
 DFD Description of GHData Visualizer
 ---------------------------------------
+As shown in the diagram below, the user will submit a repo address to the tool, which will format it in a way that will pass well to GHData.
+
+Using GHData, it will obtain the repository statistics and pass the data to a DJango controller. The controller will format the data in a way that can populate the graphs and push it to the view.
+
+The user will then be able to see the statistics formatted into graphs, tables, and the ratings systems.
 
 ![](ConceptImages/flowchart1.jpg?raw=true)
