@@ -23,8 +23,8 @@ Installation
 
 Usage
 -----
-![Alt text](/GHDataVisualizerConcept.jpg?raw=true "GHData Visualizer Concept")
+![](ConceptImages/GHDataVisualizerConcept.jpg?raw=true)
 
 DFD Description of GHData Visualizer
 ---------------------------------------
-![Alt text](/flowchart1.jpg?raw=true "GHData Visualizer DFD")
+![](ConceptImages/flowchart1.jpg?raw=true)
