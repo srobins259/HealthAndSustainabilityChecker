@@ -48,4 +48,4 @@ Using GHData, it will obtain the repository statistics and pass the data to a DJ
 
 The user will then be able to see the statistics formatted into graphs, tables, and the ratings systems.
 
-![](ConceptImages/flowchart1.jpg?raw=true)
+![](ConceptImages/dataflow.jpg?raw=true)
