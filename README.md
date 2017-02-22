@@ -16,7 +16,11 @@ Dependencies/Development Environment
 ------------
 - This software is developed on Mac, Asus, and P.C. environments using the Atom text Editor
 - Chart.js
-- Python 3.4.0
+- Python 3.4.X
+- MySQL 5.X or later version
+- GHTorrent in database
+- Bootstrap
+- DJango 1.10.X
 
 Installation
 ------------
