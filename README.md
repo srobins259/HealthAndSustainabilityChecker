@@ -22,8 +22,7 @@ Dependencies/Development Environment
 - Bootstrap
 - DJango 1.10.X
 
-Installation
-------------
+Our Databse schema will be based on the GHTorrent database, and will follow that format unless we implement a user system for the purpose of saving ratings. This would only require the use of a basic users table.
 
 Usage
 -----
