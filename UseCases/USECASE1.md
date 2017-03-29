@@ -16,10 +16,10 @@ PRECONDITIONS:
 The user must find a repository on Github and obtain the name of the repository and the username of the owner of the repository.
 
 MAIN SUCCESS SCENARIO:
-
+The user is shown the metrics for the repository entered into the tool.
 
 FAILED END CONDITIONS:
-
+The user would not receive any metrics for the repository entered into the tool.
 
 TRIGGER:
 This use case is instantiated when a user clicks the "submit" button.
