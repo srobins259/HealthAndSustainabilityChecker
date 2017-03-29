@@ -26,6 +26,9 @@ Our tool will utilize the  [GHTorrent](http://ghtorrent.org/downloads.html) data
 
 ![](Images/ghtorrent_database_schema.png?raw=true)
 
+INSTALLATION
+----------
+
 System Description
 -----
 The GHData Visualizer is a front-end tool made to give an interface to the GHData project, the GHData project is a project that provides data related to GitHub repositories.

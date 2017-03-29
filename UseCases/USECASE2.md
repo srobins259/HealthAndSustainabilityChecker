@@ -10,9 +10,9 @@ GOAL IN CONTEXT:
 This use case describes the event of the user classifying metrics as positive, neutral, or negative indicators.
 
 STAKEHOLDERS:
-// -Individuals who are interested in viewing and comparing metrics for an open-source repository.
-//-Companies/businesses who are interested in viewing and comparing metrics for an open-source repository.
-//-GHData
+-Individuals who are interested in viewing and comparing metrics for an open-source repository.
+-Companies/businesses who are interested in viewing and comparing metrics for an open-source repository.
+-GHData
 
 PRECONDITIONS:
 The user must find a repository on Github and obtain the name of the repository and the username of the owner of the repository.  Also, the user must have pre-defined notions for the positivity, neutrality, or negativity for the metrics that they will be analyzing.
