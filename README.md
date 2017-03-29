@@ -29,23 +29,12 @@ Our tool will utilize the  [GHTorrent](http://ghtorrent.org/downloads.html) data
 INSTALLATION
 ----------
 With a server solution
-1. Clone the ropository into your server solution.
+1. Clone the ropository into your server solution's web serving.
 2. Follow the OSSHealth/ghdata setup process to prepare ghdata.
-3. Start your server.
+3. Start your server if you have not already.
 4. Go to the repository directory in your terminal and enter "ghdata" to start the process
 5. In your browser, access the repository in its location on your server
-6. Access the frontend by accessing http://(yourServerIp)/(yourRepositoryLocation)/frontend
-7. Type a repository name and owner into the corresponding fields in the form.
-8. Use the good, neutral, and bad buttons to highlight the corresponding metric graphs.
-
-Without a server solution
-1. Download the repo into your local file directory.
-2. Follow the OSSHealth/ghdata setup process to prepare ghdata.
-3. Go to the repository directory in your terminal and enter "ghdata" to start the process    
-4. Open another terminal and go to the repository directory and enter "cd frontend"
-5. Enter "python -m http.server"
-6. A local server will start and you can access your content on the url the terminal provides
-6. Access the frontend by accessing http://localhost:8000/(yourRepositoryLocation)/frontend
+6. Access the frontend by accessing http://(yourServerIP)/(RepositoryLocation)/frontend
 7. Type a repository name and owner into the corresponding fields in the form.
 8. Use the good, neutral, and bad buttons to highlight the corresponding metric graphs.
 
