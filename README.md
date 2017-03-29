@@ -14,7 +14,7 @@ CONTRIBUTOR AGREEMENT
 
 We are in the very early stages of development so we are not enrolling any new collaborators at this point.
 
-Dependencies
+Development Environment
 ------------
 - This software is developed on Mac(need macOS Sierra v. 10.12.3), Asus(need Windows 10), and P.C.(need Windows 10) environments using the Atom text Editor(need version 1.15.0)
 - Python 3.4.X
@@ -26,21 +26,17 @@ Our tool will utilize the  [GHTorrent](http://ghtorrent.org/downloads.html) data
 
 ![](Images/ghtorrent_database_schema.png?raw=true)
 
-Development Environment
-------------
-- Bootstrap
-- DJango 1.10.X
-- Chart.js
-
 System Description
 -----
-Below is a diagram showing a mockup UI for the GHData front-end. Users will enter a repo into the form, and the tool will access GHData to get possible analytics metrics. In this first iteration, the form will have preset metric positivity and negativity in order to establish a basic "score" for the repo.
+The GHData Visualizer is a front-end tool made to give an interface to the GHData project, the GHData project is a project that provides data related to GitHub repositories.
 
-The tool will generate a time graph for metrics that need to be tracked over time. For more simple metrics, it will simply list them at the bottom in more of a table form. We will include a user review option at the bottom so that open source professionals can provide feedback on repos that they have used.
+Our tool allows the user to input a repository name and the owner name for the repository, and graphs are developed for metrics made by the GHData project.  These metrics show the "health" of a repository, these are called OSS Health Indicators.  OSS Health Indicators are metrics about the health and sustainability of open source projects.  All metrics are value free, but a user may derive value from the metrics displayed on the GHData Visualizer project.
 
-After this functionality has been built successfully, we will develop a form that allows users to choose different metrics for positive or negative columns and allow them to personalize the connotation each metric has. Finally, we will work to analyze the changes that will be made to GHData in the future to make it so that the form will update to include newly available metrics as they are added to GHData.
+With seeing the metrics in the form of graphs, the user may also label the metrics for a visual representation on the metric being a "Good" metric, "Neutral" metric, or a "Bad" metric. This is done by a form being created with displaying the choices for these options and making the graphs visually represented with a colorized background.
 
-![](Images/GHDataVisualizerConcept2.jpg?raw=true)
+Below are visual examples on how our tool works:
+
+![](Images/ISDwebDesign.png?raw=true)
 
 DFD Description of GHData Visualizer
 ---------------------------------------
