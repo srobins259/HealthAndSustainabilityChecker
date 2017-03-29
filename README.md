@@ -40,7 +40,7 @@ The tool will generate a time graph for metrics that need to be tracked over tim
 
 After this functionality has been built successfully, we will develop a form that allows users to choose different metrics for positive or negative columns and allow them to personalize the connotation each metric has. Finally, we will work to analyze the changes that will be made to GHData in the future to make it so that the form will update to include newly available metrics as they are added to GHData.
 
-![](Images/GHDataVisualizerConcept.jpg?raw=true)
+![](Images/GHDataVisualizerConcept2.jpg?raw=true)
 
 DFD Description of GHData Visualizer
 ---------------------------------------

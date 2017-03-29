@@ -4,10 +4,10 @@ TITLE:
 User classifying results.
 
 PRIMARY ACTOR:
-A business or an individual who would like to view metrics of a repository for potential use of the repository.
+A business or an individual who would like to view metrics of a repository for potential use of the repository with giving a sort of classification for the metrics available.
 
 GOAL IN CONTEXT:
-This use case describes the event of
+This use case describes the event of the user deciding 
 
 STAKEHOLDERS:
 // -Individuals who are interested in viewing and comparing metrics //for an open-source repository.
@@ -15,12 +15,13 @@ STAKEHOLDERS:
 -GHData
 
 PRECONDITIONS:
-
+The user must find a repository on Github and obtain the name of the repository and the username of the owner of the repository.
 
 MAIN SUCCESS SCENARIO:
-
+Metric graphs will be highlighted based off of form buttons clicked: highlighted GREEN if clicked on "Good" button, no highlight if clicked on "Neutral" button, highlighted RED if clicked on "Bad" button.
 
 FAILED END CONDITIONS:
 
 
 TRIGGER:
+This use case is initiated when a user clicks on any of the form buttons.
