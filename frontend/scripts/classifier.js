@@ -1,6 +1,6 @@
 var myApp = angular.module('myApp', []);
 
-myApp.controller('ColorCtrl', ['$scope', function($scope){
+  myApp.controller('ColorCtrl', ['$scope', function($scope){
 
   $scope.commitsStyle = {};
   $scope.starsStyle = {};
@@ -10,6 +10,7 @@ myApp.controller('ColorCtrl', ['$scope', function($scope){
 
   $scope.commitsGreen = function (){
    $scope.commitsStyle.colorClass = "green";
+   return "green";
   }
 
   $scope.commitsWhite = function (){
