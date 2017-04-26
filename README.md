@@ -27,16 +27,16 @@ Our tool will utilize the  [GHTorrent](http://ghtorrent.org/downloads.html) data
 INSTALLATION
 ----------
 1. Go to terminal.
-2. (type the following steps in terminal)
-\n  git clone (latest ghdata)
-\n  cd ghdata
-\n  pip3 install --update .
-\n  ghdata
-3. *setup config file*
-4. (type the following steps in terminal)
-\n  ghdata
-\n  git clone (this repo)
-5. replace the ghdata static folder with our static folder.
+2. (Type steps 3-6 in terminal.)
+3. git clone (latest ghdata)
+4. cd ghdata
+5. pip3 install --update .
+6. ghdata
+7. *Setup config file*
+8. (Type the steps 9 & 10 in terminal.)
+9. ghdata
+10. git clone (this repo)
+11. replace the ghdata static folder with our static folder.
 
 
 
