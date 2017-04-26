@@ -1,0 +1,120 @@
+<!-- SPDX-License-Identifier: MIT -->
+
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Health Report</title>
+    <link rel="stylesheet" href="styles/ghdata-dashboard.css">
+    <link rel="stylesheet" href="styles/form.css">
+    <script src="scripts/ghdata-api-client.js"></script>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    <script src="scripts/classifier.js"></script>
+    <script src="scripts/metricsgraphics.min.js"></script>
+  </head>
+  <body>
+
+    <!-- basic form to get the owner and repo. GET causes auto formating into the URL on submit -->
+    <div class="row">
+      <form name="input" method="GET" style="background:#ddd; padding:30px">
+        <div class="form-group">
+          <label for="owner">Owner</label>
+          <input type="text" class="form-control" name="owner" id="owner">
+        </div>
+        <div class="form-group">
+          <label for="repo">Repository</label>
+          <input type="text" class="form-control" name="repo" id="repo">
+        </div>
+        <button type="submit" class="" style="background:white">Submit</button>
+        <br><small>Currently only repositories in the <a href="http://ghtorrent.org/msr14.html">MSR14 dataset</a> are supported. The projects on that site are listed as &lt;repo&gt;/&lt;owner&gt;<br>(for instance, devtoos/hadley would is the project devtools by the owner hadley)</small>
+        </form>
+    </div>
+
+
+    <!-- Add Ajax -->
+    <div ng-app="myApp" ng-controller="ColorCtrl">
+      <div class="row" style="padding-left:30px">
+	<div class="three columns">
+	   <p> </p>
+	</div>
+        <div class="three columns">
+          <table>
+            <thead>
+              <tr>
+                <th>Metric</th>
+                <th>Good</th>
+                <th>Neutral</th>
+                <th>Bad</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Commits/Week</th>
+		<td><button ng-class="commitsStyle.colorClass" ng-click="setStyle('commits','green')">Good</button></td>
+                <td><button ng-class="commitsStyle.colorClass" ng-click="setStyle('commits','white')">Neutral</button></td>
+                <td><button ng-class="commitsStyle.colorClass" ng-click="setStyle('commits','red')">Bad</button></td>
+              </tr>
+              <tr>
+                <th scope="row">Stars/Week</th>
+                <td><button ng-class="starsStyle.colorClass" ng-click="setStyle('stars','green')">Good</button></td>
+                <td><button ng-class="starsStyle.colorClass" ng-click="setStyle('stars','white')">Neutral</button></td>
+                <td><button ng-class="starsStyle.colorClass" ng-click="setStyle('stars','red')">Bad</button></td>
+              </tr>
+              <tr>
+                <th scope="row">Forks/Week</th>
+                <td><button ng-class="forksStyle.colorClass"ng-click="setStyle('forks','green')">Good</button></td>
+                <td><button ng-class="forksStyle.colorClass" ng-click="setStyle('forks','white')">Neutral</button></td>
+                <td><button ng-class="forksStyle.colorClass" ng-click="setStyle('forks','red')">Bad</button></td>
+              </tr>
+              <tr>
+                <th scope="row">Issues/Week</th>
+                <td><button ng-class="issuesStyle.colorClass" ng-click="setStyle('issues','green')">Good</button></td>
+                <td><button ng-class="issuesStyle.colorClass" ng-click="setStyle('issues','white')">Neutral</button></td>
+                <td><button ng-class="issuesStyle.colorClass" ng-click="setStyle('issues','red')">Bad</button></td>
+              </tr>
+              <tr>
+                <th scope="row">Pullrequests/Week</th>
+                <td><button ng-class="pullsStyle.colorClass" ng-click="setStyle('pulls','green')">Good</button></td>
+                <td><button ng-class="pullsStyle.colorClass" ng-click="setStyle('pulls','white')">Neutral</button></td>
+                <td><button ng-class="pullsStyle.colorClass" ng-click="setStyle('pulls','red')">Bad</button></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+
+
+
+
+    <div class="container">
+      <div class="row report">
+        <section>
+          <div class="row">
+            <div class="nine columns"><h1 id="repo-label"> facebook / folly </h1></div>
+            <div class="three columns"><div id="status" class="badge healthy">healthy</div></div> 
+          </div>
+        </section>
+
+        <section>
+          <h2>Growth Indicators</h2>
+          <div class="row trends">
+            <div class="four columns" ng-class="commitsStyle.colorClass" id="commits-over-time"></div>
+            <div class="four columns" ng-class="starsStyle.colorClass" id="stargazers-over-time"></div>
+            <div class="four columns" ng-class="forksStyle.colorClass" id="forks-over-time"></div>
+          </div>
+          <div class="row trends" style="padding-top:20px">
+            <div class="four columns" ng-class="issuesStyle.colorClass" id="issues-over-time"></div>
+            <div class="four columns" ng-class="pullsStyle.colorClass" id="pulls-over-time"></div>
+          </div>
+        </section>
+        </div> <!-- end of report -->
+
+      </div> <!-- end of container -->
+      <script src="scripts/health-report.js"></script>
+    </body>
+  </html>
+
