@@ -22,21 +22,22 @@ Development Environment
 - [GHTorrent](http://ghtorrent.org/downloads.html) in database
 
 
-Our tool will utilize the  [GHTorrent](http://ghtorrent.org/downloads.html) database. This is the current database that GHData uses, and the schema can be viewed below:
-
-![](Images/ghtorrent_database_schema.png?raw=true)
+Our tool will utilize the  [GHTorrent](http://ghtorrent.org/downloads.html) database. This is the current database that GHData uses, and the schema can be viewed [here](http://ghtorrent.org/relational.html).
 
 INSTALLATION
 ----------
-With a server solution
-1. Clone the ropository into your server solution's web serving.
-2. Follow the OSSHealth/ghdata setup process to prepare ghdata.
-3. Start your server if you have not already.
-4. Go to the repository directory in your terminal and enter "ghdata" to start the process
-5. In your browser, access the repository in its location on your server
-6. Access the frontend by accessing http://(yourServerIP)/(RepositoryLocation)/frontend
-7. Type a repository name and owner into the corresponding fields in the form.
-8. Use the good, neutral, and bad buttons to highlight the corresponding metric graphs.
+1. Go to terminal.
+2. (type the following steps in terminal)
+  git clone (latest ghdata)
+  cd ghdata
+  pip3 install --update .
+  ghdata
+3. *setup config file*
+4. (type the following steps in terminal)
+  ghdata
+  git clone (this repo)
+5. replace the ghdata static folder with our static folder.
+
 
 
 System Description
