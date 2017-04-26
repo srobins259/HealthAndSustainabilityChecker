@@ -28,14 +28,14 @@ INSTALLATION
 ----------
 1. Go to terminal.
 2. (type the following steps in terminal)
-  git clone (latest ghdata)
-  cd ghdata
-  pip3 install --update .
-  ghdata
+\n  git clone (latest ghdata)
+\n  cd ghdata
+\n  pip3 install --update .
+\n  ghdata
 3. *setup config file*
 4. (type the following steps in terminal)
-  ghdata
-  git clone (this repo)
+\n  ghdata
+\n  git clone (this repo)
 5. replace the ghdata static folder with our static folder.
 
 
