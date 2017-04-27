@@ -26,6 +26,7 @@ Our tool will utilize the  [GHTorrent](http://ghtorrent.org/downloads.html) data
 
 INSTALLATION
 ----------
+0. Set up the msr14 database on your machine. It can be found here: http://ghtorrent.org/msr14.html
 1. Go to terminal.
 2. (Type steps 3-6 in terminal.)
 3. git clone https://github.com/OSSHealth/ghdata.git
@@ -37,6 +38,7 @@ INSTALLATION
 9. ghdata
 10. git clone https://github.com/srobins259/InternetSystemsDevelopment.git
 11. replace the ghdata static folder with our static folder.
+12. In your browser, go to localhost:5000/ and you will be taken to the graphic interface.
 
 
 
