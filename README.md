@@ -37,7 +37,7 @@ INSTALLATION
 8. (Type the steps 9 & 10 in terminal.)
 9. ghdata
 10. git clone https://github.com/srobins259/InternetSystemsDevelopment.git
-11. replace the ghdata static folder with our static folder.
+11. Replace the ghdata static folder with our static folder.
 12. In your browser, go to localhost:5000/ and you will be taken to the graphic interface.
 
 
@@ -46,9 +46,9 @@ System Description
 -----
 The GHData Visualizer is a front-end tool made to give an interface to the GHData project, the GHData project is a project that provides data related to GitHub repositories.
 
-Our tool allows the user to input a repository name and the owner name for the repository, and graphs are developed for metrics made by the GHData project.  These metrics show the "health" of a repository, these are called OSS Health Indicators.  OSS Health Indicators are metrics about the health and sustainability of open source projects.  All metrics are value free, but a user may derive value from the metrics displayed on the GHData Visualizer project.
+Our tool allows the user to input a repository's name and the owner name. Graphs are then developed for metrics made by the GHData project.  These metrics show the "health" of a repository, these are called OSS Health Indicators.  OSS Health Indicators are metrics about the health and sustainability of open source projects.  All metrics are value free, but a user may derive value from the metrics displayed on the GHData Visualizer project.
 
-With seeing the metrics in the form of graphs, the user may also label the metrics for a visual representation on the metric being a "Good" metric, "Neutral" metric, or a "Bad" metric. This is done by a form being created with displaying the choices for these options and making the graphs visually represented with a colorized background.
+With seeing the metrics in the form of graphs, the user may also label the metrics for a visual representation on the metric being a "Good" metric, "Neutral" metric, or a "Bad" metric. This is done by a form being created with displaying the choices for these options and making the graphs visually represented with a colorized background.  NOTE: When selecting a choice for colorizing the graphs, all the buttons for that metric will change to the current selection's color that would colorize the graph.
 
 Below are visual examples on how our tool works:
 
