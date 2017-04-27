@@ -52,7 +52,11 @@ With seeing the metrics in the form of graphs, the user may also label the metri
 
 Below are visual examples on how our tool works:
 
-![](Images/ISDwebDesign.png?raw=true)
+Example of style buttons:
+![](Images/FinalScreenshot1.png?raw=true)
+
+Example of colorized metric graphs:
+![](Images/FinalScreenshot2.png?raw=true)
 
 DFD Description of GHData Visualizer
 ---------------------------------------
