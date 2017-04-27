@@ -28,14 +28,14 @@ INSTALLATION
 ----------
 1. Go to terminal.
 2. (Type steps 3-6 in terminal.)
-3. git clone (latest ghdata)
+3. git clone https://github.com/OSSHealth/ghdata.git
 4. cd ghdata
 5. pip3 install --update .
 6. ghdata
 7. *Setup config file*
 8. (Type the steps 9 & 10 in terminal.)
 9. ghdata
-10. git clone (this repo)
+10. git clone https://github.com/srobins259/InternetSystemsDevelopment.git
 11. replace the ghdata static folder with our static folder.
 
 
