@@ -33,7 +33,8 @@ INSTALLATION
 4. cd ghdata
 5. pip3 install --update .
 6. ghdata
-7. *Setup config file*
+Ghdata.cfg will be automatically generated.
+7. *Setup config file to point towards your msr14 database from step 0*
 8. (Type the steps 9 & 10 in terminal.)
 9. ghdata
 10. git clone https://github.com/srobins259/InternetSystemsDevelopment.git
